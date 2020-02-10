@@ -1,0 +1,38 @@
+<div class="blog-page font-family">
+    <div class="titleWrapper">
+        <div class="about-description-title color-b text-align-c">
+            <p style="white-space: pre-wrap;">
+                <span>Explaning product management concepts through storytelling.</span>
+            </p>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-lg-12 col-xl-12">
+                <div class="selectCont">
+                    <div class="selectContainer">
+                        <select (change)="onSelectCategory($event.target.value)">
+                            <option *ngFor="let c of categoryList" [value]="c" >{{c}}</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 thumbnail" *ngFor="let s of stories">
+                <div>
+                    <div (click)="goCaseStudy('story_01')">
+                        <div class="imgContainer">
+                            <img [src]="s.imageUrl" style="width: 100%;">
+                        </div>
+                        <p class="imgTitle color-b">{{s.title}}</p>
+                    </div>
+                </div>
+  
+            </div>
+            </div>
+        </div>
+    </div>

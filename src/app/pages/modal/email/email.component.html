@@ -1,0 +1,42 @@
+<div class="modal-header">
+    <div>
+        Let's Connect
+    </div>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="row">
+        <div class="col-6">
+          <label class="inputLabel">Your Name<span>*</span></label>
+          <input type="text">
+          <label class="belowInpText">First Name<span>*</span></label>
+        </div>
+        <div class="col-6">
+          <input type="text" class="LastName">
+          <label class="belowInpText">Last Name<span>*</span></label>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-12">
+            <label class="inputLabel">Your Email<span>*</span></label>
+            <input type="email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label class="inputLabel">Your Message<span>*</span></label>
+            <textarea></textarea>
+          </div>
+  
+        </div>
+        <div class="row">
+          <div></div>
+        </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" (click)="bsModalRef.hide()">{{closeBtnName}}</button>
+  </div>

@@ -1,0 +1,435 @@
+.about-description-title{
+    line-height: 1.7em;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.about-user{
+    margin-top: 4.5rem;
+    width: 64%;
+    margin: 0 auto;
+}
+
+.about-user p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 1.7em;
+    letter-spacing: .005em;
+    text-rendering: optimizeLegibility;
+    color: rgba(0,0,0,.4);
+}
+
+.skills p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 1.7em;
+    letter-spacing: .005em;
+    text-rendering: optimizeLegibility;
+    color: rgba(0,0,0,.4);
+}
+
+.quotes{
+    text-rendering: optimizeLegibility;
+    color: black
+}
+
+.emailMeDiv button:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-page{
+      margin-top:20%;
+    }
+    .about-description-title{
+        font-size: 6.125vw;
+        margin: 0 auto;
+        /* width: 63%; */
+        font-weight: 900;
+        line-height: 2.5rem;  
+    }
+    .titleWrapper{
+        margin-top: 22%;
+        margin-bottom: 45%;
+    }
+    .about-user{
+        width: 100%;
+    }
+    .profileImg{
+        margin-top: 6%;
+    }
+    .skills{
+        width: 100%;
+    }
+    .quotes{
+        margin-top: 10%;
+        margin-bottom: 27%;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 1.5em;
+        letter-spacing: 0.003em;
+    }
+    .quotes p{
+        margin-top: 10%;
+        margin-top: 3%;
+        padding-left: 3%;
+    }
+    .letsConnect{
+
+    }
+    .socialWrapper{
+        margin-bottom: 14%;
+    margin-top: 6%;
+    }
+    .socialWrapper a{
+        padding-right: 14px;
+    }
+    .socialIconL{
+        width: 9%;
+    }
+    .socialIconM{
+        width: 6%;
+        padding-top:2px;
+    }
+    .emailMeDiv{
+
+    }
+
+    .emailMeDiv button{
+        font-size: 0.9rem;
+        border: 2px solid black;
+        background-color: white;
+        padding: 13px;
+        font-weight: 900;
+        width: 40%;
+        border-radius: 38px;
+    
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .about-page{
+        margin-top:20%;
+      }
+      .about-description-title{
+        font-size: 5.125vw;
+        margin: 0 auto;
+        font-weight: 900;
+        line-height: 3.5rem;  
+      }
+      .titleWrapper{
+          margin-top: 22%;
+          margin-bottom: 18%;
+      }
+      .about-user{
+          width: 100%;
+      }
+      .profileImg{
+          margin-top: 6%;
+      }
+      .skills{
+          width: 100%;
+      }
+      .quotes{
+          margin-top: 10%;
+          margin-bottom: 27%;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 1.8em;
+          letter-spacing: 0.003em;
+      }
+      .quotes p{
+          margin-top: 10%;
+          margin-top: 3%;
+          padding-left: 3%;
+      }
+      .letsConnect{
+  
+      }
+      .socialWrapper{
+        margin-bottom: 8%;
+        margin-top: 6%;    
+      }
+      .socialWrapper a{
+          padding-right: 14px;
+      }
+      .socialIconL{
+          width: 6%;
+      }
+      .socialIconM{
+          width: 4%;
+          padding-top:2px;
+      }
+      .emailMeDiv{
+  
+      }
+
+      .skillRow{
+        height: 32rem;
+      }
+  
+      .emailMeDiv button{
+          font-size: 0.9rem;
+          border: 2px solid black;
+          background-color: white;
+          padding: 13px;
+          font-weight: 900;
+          width: 22%;
+          border-radius: 38px;
+      
+      }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .about-page{
+      margin-top: 10%;
+    }
+    .about-description-title{
+        font-size: 3.525vw;
+    margin: 0 auto;
+    font-weight: 900;
+    width: 71%;
+    line-height: 3.5rem;
+    }
+    .about-page{
+        margin-top:20%;
+      }
+      .titleWrapper{
+        margin-top: -9%;
+        margin-bottom: 18%;
+    
+      }
+      .about-user{
+          width: 80%;
+      }
+      .profileImg{
+          margin-top: 6%;
+      }
+      .skills{
+          width: 100%;
+      }
+      .rest-page{
+        width: 80%;
+        margin: 0 auto;
+      }
+      .quotes{
+          margin-top: 10%;
+          margin-bottom: 27%;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 1.8em;
+          letter-spacing: 0.003em;
+      }
+      .quotes p{
+          margin-top: 10%;
+          margin-top: 3%;
+          padding-left: 3%;
+      }
+      .letsConnect{
+  
+      }
+      .socialWrapper{
+        margin-bottom: 8%;
+        margin-top: 6%;    
+      }
+      .socialWrapper a{
+          padding-right: 14px;
+      }
+      .socialIconL{
+          width: 6%;
+      }
+      .socialIconM{
+          width: 4%;
+          padding-top:2px;
+      }
+      .emailMeDiv{
+  
+      }
+  
+      .emailMeDiv button{
+          font-size: 0.9rem;
+          border: 2px solid black;
+          background-color: white;
+          padding: 13px;
+          font-weight: 900;
+          width: 24%;
+          border-radius: 38px;
+      
+      }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .about-page{
+      margin-top: 10%;
+    }
+    .about-description-title{
+        font-size: 3.125vw;
+        margin: 0 auto;
+        font-weight: bolder;
+        line-height: 3.5rem;  
+    }
+    .about-page{
+        margin-top: -12%;
+
+      }
+      .about-description-title{
+        font-size: 3.105vw;
+        margin: 0 auto;
+        width: 36%;
+        font-weight: 900; 
+      }
+      .titleWrapper{
+        margin-top: 18%;
+        margin-bottom: 17%;
+    
+      }
+      .about-user{
+          width: 80%;
+      }
+      .profileImg{
+          margin-top: 6%;
+      }
+      .skills{
+          width: 100%;
+      }
+      .quotes{
+          margin-top: 10%;
+          margin-bottom: 27%;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 1.8em;
+          letter-spacing: 0.003em;
+      }
+      .quotes p{
+          margin-top: 10%;
+          margin-top: 3%;
+          padding-left: 3%;
+      }
+      .letsConnect{
+  
+      }
+      .socialWrapper{
+        margin-bottom: 5%;
+        margin-top: 3%;
+        
+      }
+      .socialWrapper a{
+          padding-right: 14px;
+      }
+      .socialIconL{
+          width: 5%;
+      }
+      .socialIconM{
+          width: 3%;
+          padding-top:2px;
+      }
+      .emailMeDiv{
+  
+      }
+  
+      .emailMeDiv button{
+          font-size: 0.9rem;
+          border: 2px solid black;
+          background-color: white;
+          padding: 13px;
+          font-weight: 900;
+          width: 16%;
+          border-radius: 38px;
+      
+      }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .about-page{
+        margin-top:-7%;
+      }
+      .about-description-title{
+        font-size: 3.125vw;
+        margin: 0 auto;
+        font-weight: 900;
+        line-height: 4.5rem;
+     
+      }
+      .titleWrapper{
+          margin-top: 0%;
+          margin-bottom: 9%;
+      }
+      .about-user{
+        width: 80%;
+        margin: 0 auto;
+      }
+      .profileImg{
+          margin-top: 6%;
+      }
+      .skills{
+        width: 80%;
+        margin: 0 auto;
+      }
+      .rest-page{
+        width: 80%;
+        margin: 0 auto;
+      }
+      .skillRow{
+        height: 19rem;
+      }
+      .quotes{
+          margin-top: 10%;
+          margin-bottom: 27%;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 1.8em;
+          letter-spacing: 0.003em;
+          width: 80%;
+    margin: 0 auto;
+      }
+      .skill-heading{
+        margin-left: 10%;
+      }
+      .quotes p{
+          margin-top: 10%;
+          margin-top: 3%;
+          padding-left: 3%;
+      }
+      .letsConnect{
+  
+      }
+      .socialWrapper{
+        margin-bottom: 3%;
+        margin-top: 2%;    
+      }
+      .socialWrapper a{
+          padding-right: 14px;
+      }
+      .socialIconL{
+          width: 3%;
+      }
+      .socialIconM{
+          width: 1.8%;
+          padding-top:2px;
+      }
+      .emailMeDiv{
+  
+      }
+  
+      .emailMeDiv button{
+          font-size: 0.9rem;
+          border: 2px solid black;
+          background-color: white;
+          padding: 13px;
+          font-weight: 900;
+          width: 12%;
+          border-radius: 38px;
+      
+      }
+  }

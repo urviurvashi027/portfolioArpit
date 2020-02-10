@@ -1,1 +1,327 @@
 /* You can add global styles to this file, and also import other style files */
+// @font-face {
+//     font-family: 'Montserrat';
+//     src: url(/assets/Montserrat/Montserrat-Light.ttf) format("truetype");
+//     font-weight:300;
+//   }
+// * { font-family: "Comic Sans MS", cursive, sans-serif }
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+:host {    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .font-family{
+    font-family: 'PT Sans', sans-serif;
+  }
+html { 
+    height:100%;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Chela One';
+    font-size: 13px !important;
+    font-family: 'PT Sans', sans-serif;
+    min-height:100%;
+}
+.site-title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+select {
+    margin: 50px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(./assets/images/caret.png) 96% / 15% no-repeat #fff;
+  }
+
+  .text-align-c{
+      text-align: center;
+  }
+
+  .color-b{
+    color:black;
+  }
+
+  .color-p{
+      color:rgba(0,0,0,.4);
+  }
+
+  
+  /* CAUTION: IE hackery ahead */
+  select::-ms-expand { 
+      display: none; /* remove default arrow on ie10 and ie11 */
+  }
+
+  button:focus {outline:0;}
+
+  select:focus {outline:0;}
+
+
+  a{text-decoration: none;}
+
+  .float-r{
+      float: right;
+  }
+
+  .m-b-6{
+    margin-bottom: 6%;
+  }
+
+  .m-t-25{
+    margin-top: 25% !important;
+  }
+
+
+  .w-100{
+      width:100%
+  }
+  
+  /* target Internet Explorer 9 to undo the custom arrow */
+  @media screen and (min-width:0\0) {
+      select {
+          background:none\9;
+          padding: 5px\9;
+      } 
+  }
+
+  .row{ &:before, &:after{ display: block; } }
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .font-family{
+        font-family: 'PT Sans', sans-serif; 
+        color:rgba(0,0,0,.4);
+        font-size: 13px;
+    }
+    .heading-primary{
+        font-size: 1.7rem;
+        font-weight: 800;
+      }
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .caption{
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+    .highligth-t{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    input[type=text],[type=email]{
+        width: 100%;
+        padding: 9px;
+        margin: 15px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 13px;
+        box-sizing: border-box;    
+      }
+      .LastName{
+        margin-top: 25% !important;
+    }
+    
+      textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .belowInpText{
+        font-size: 12px;
+      }
+    
+      .inputLabel{
+        font-size: 13px;
+        font-weight: 600;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .font-family{
+        font-family: 'PT Sans', sans-serif; 
+        color:rgba(0,0,0,.4);
+        font-size: 14px;
+        // color:#aaa;
+    }
+    .LastName{
+        margin-top: 20% !important;
+    }
+    .heading-primary{
+        font-size: 1.7rem;
+        font-weight: 800;
+      }
+    .page-title{
+        font-size: 11px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .caption{
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+    .highligth-t{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    input[type=text],[type=email]{
+        width: 100%;
+        padding: 9px;
+        margin: 15px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 13px;
+        box-sizing: border-box;    
+      }
+    
+    
+      textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .belowInpText{
+        font-size: 12px;
+      }
+    
+      .inputLabel{
+        font-size: 14px;
+        font-weight: 600;
+    
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .font-family{
+        font-family: 'PT Sans', sans-serif; 
+        color:rgba(0,0,0,.4);
+        font-size: 13px;
+        // color:#aaa;
+    }
+    .page-title{
+        font-size: 11px;
+    }
+    .LastName{
+        margin-top: 20% !important;
+    }
+    .heading-primary{
+        font-size: 1.7rem;
+        font-weight: 800;
+      }
+    .page-title{
+        font-size: 11px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .caption{
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+    .highligth-t{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    input[type=text],[type=email]{
+        width: 100%;
+        padding: 9px;
+        margin: 15px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        font-size: 13px;
+        box-sizing: border-box;    
+      }
+    
+    
+      textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .belowInpText{
+        font-size: 12px;
+      }
+    
+      .inputLabel{
+        font-size: 14px;
+        font-weight: 600;
+    
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .font-family{
+        font-family: 'PT Sans', sans-serif; 
+        color:rgba(0,0,0,.4);
+        font-size: 14px;
+        // color:#aaa;
+    }
+    .heading-primary{
+      font-size: 1.7rem;
+      font-weight: 800;
+    }
+    .page-title{
+        font-size: 11px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .font-family{
+        font-family: 'PT Sans', sans-serif; 
+        color:rgba(0,0,0,.4);
+        font-size: 15px;
+        // color:#aaa;
+
+    }
+    .heading-primary{
+      font-size: 1.7rem;
+      font-weight: 800;
+    } 
+    .page-title{
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,206 @@
+.page-description-title{
+    margin-top:7%;
+    font-size: 3.125vw;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.7em;
+    letter-spacing: 0em;
+    text-transform: none;
+    color: #111;
+    margin-top: 23vh;
+    margin-bottom: 28vh;
+    text-align: center;
+}
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about-page{
+        margin-top:20%;
+      }
+      .about-description-title{
+        font-size: 6.125vw;
+        margin: 0 auto;
+        /* width: 63%; */
+        font-weight: 900;
+        line-height: 2.5rem; 
+      }
+      .captions{
+        font-size:13px;
+        margin-bottom: 2.5rem;
+        margin-left: 10%;
+      }
+      .resumeContainer{
+        border: 3px solid black;
+        width: 55%;
+        margin: 0 auto;
+        margin-top: 3%;
+        position: relative;
+      }
+      .titleWrapper{
+          margin-top: 22%;
+          margin-bottom: 15%;
+      }
+      .bottom-left {
+        position: absolute;
+        bottom: -16px;
+        background-color: #fff;
+        left: 16px;
+        font-weight: 600;
+        font-size: 1.4rem;
+      }
+  }
+  
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        .about-page{
+            margin-top:20%;
+          }
+          .about-description-title{
+            font-size: 5.125vw;
+            margin: 0 auto;
+            font-weight: 900;
+            line-height: 3.5rem;  
+          }
+          .captions{
+            font-size: 14px;
+            margin-bottom: 2.5rem;
+            margin-left: 10%;
+          }
+          .resumeContainer{
+            border: 3px solid black;
+            width: 44%;
+            margin: 0 auto;
+            margin-top: 3%;
+            position: relative;
+          }
+          .titleWrapper{
+              margin-top: 18%;
+              margin-bottom: 15%;
+          }
+          .bottom-left {
+            position: absolute;
+            bottom: -16px;
+            background-color: #fff;
+            left: 16px;
+            font-weight: 600;
+            font-size: 1.4rem;
+          }
+      }
+      
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .about-page{
+        margin-top:20%;
+      }
+      .about-description-title{
+        font-size: 3.525vw;
+        margin: 0 auto;
+        font-weight: 900;
+        width: 71%;
+        line-height: 3.5rem;  
+      }
+      .captions{
+        font-size: 14px;
+        margin-bottom: 2.5rem;
+        margin-left: 28%;
+      }
+      .resumeContainer{
+        border: 3px solid black;
+        width: 44%;
+        margin: 0 auto;
+        margin-top: 3%;
+        position: relative;
+      }
+      .titleWrapper{
+          margin-top: 22%;
+          margin-bottom: 15%;
+      }
+      .bottom-left {
+        position: absolute;
+        bottom: -16px;
+        background-color: #fff;
+        left: 16px;
+        font-weight: 600;
+        font-size: 1.4rem;
+      }
+  }
+  
+   /* Large devices (laptops/desktops, 992px and up) */
+   @media only screen and (min-width: 992px) { 
+    .about-page{
+        margin-top:20%;
+      }
+      .about-description-title{
+        font-size: 3.125vw;
+        margin: 0 auto;
+        font-weight: bolder;
+        line-height: 3.5rem;  
+      }
+      .captions{
+        font-size:15px;
+        margin-left: 28%;
+        margin-bottom: 2.5rem;
+      }
+      .resumeContainer{
+        border: 3px solid black;
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 3%;
+        position: relative;
+      }
+      .titleWrapper{
+          margin-top: 22%;
+          margin-bottom: 15%;
+      }
+      .bottom-left {
+        position: absolute;
+        bottom: -16px;
+        background-color: #fff;
+        left: 16px;
+        font-weight: 600;
+        font-size: 1.4rem;
+      }
+  }
+  
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .about-page{
+        margin-top:20%;
+      }
+      .about-description-title{
+        font-size: 3.125vw;
+        margin: 0 auto;
+        font-weight: 900;
+        line-height: 4.5rem; 
+      }
+      .captions{
+        font-size: 16px;
+        margin-left: 34%;
+        margin-bottom: 4%;
+      }
+      .resumeContainer{
+        border: 3px solid black;
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 3%;
+        position: relative;
+      }
+      .titleWrapper{
+          margin-top: 4%;
+          margin-bottom: 13%;
+      }
+      .bottom-left {
+        position: absolute;
+        bottom: -16px;
+        background-color: #fff;
+        left: 16px;
+        font-weight: 600;
+        font-size: 1.4rem;
+      }
+   
+  }

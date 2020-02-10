@@ -1,0 +1,401 @@
+header{
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 3vw auto;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.nav-item a{
+    // color:#b3b3b3;
+    text-decoration: none;
+}
+
+.nav-item a:active{
+    // color:black;
+    text-decoration: none;
+}
+
+.nav-item a:hover{
+    // color:black;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.logoImage{
+  width: 62%;
+  height: 7rem;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header{
+    margin-top:1%;
+    padding: 0px 60px 60px 20px;
+  }
+  .logoConatiner{
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+
+}
+.hamburger{
+  font-size: 2rem;
+  float: right;
+}
+.mainNav{
+  width:100%;
+}
+.mobileNavbar{
+  width: 100%;
+  overflow: hidden;
+  height: 4rem;
+  padding: 3%;
+}
+.logoImage{
+  width: 66%;
+  height: 4rem;
+
+}
+.name{
+  padding-top: 26px;
+  float: initial;
+}
+.navCol{
+  padding-top: 4%;
+
+}
+  .DesktopView{
+      display: none;
+  }
+  .mobile-container {
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding-bottom: 3%;
+  border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: #000;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .active {
+    background-color: #fff;
+    color: #000;
+  }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .header{
+      margin-top:1%;
+      padding: 0px 60px 60px 20px;
+    }
+    .logoConatiner{
+      display: inline-block;
+      width: 28%;
+  }
+  .hamburger{
+    font-size: 2rem;
+    float: right;
+  }
+  .mainNav{
+    width:100%;
+  }
+  .mobileNavbar{
+    width: 100%;
+    overflow: hidden;
+    height: 4rem;
+    padding: 3%;
+  }
+  .logoImage{
+    width: 40%;
+    height: 5rem;
+
+  }
+  
+  .name{
+    padding-top: 26px;
+    float: initial;
+  }
+  .navCol{
+    padding-top: 4%;
+
+  }
+    .DesktopView{
+        display: none;
+    }
+    .mobile-container {
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding-bottom: 3%;
+    border-radius: 10px;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #fff;
+      position: relative;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    
+    .topnav a {
+      color: #000;
+      padding: 24px 26px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      background: #fff;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      background-color: #fff;
+      color: black;
+    }
+    
+    .active {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .header{
+      margin-top: 0%;
+      padding: 0px 10px 70px 20px;
+    }
+    .mobile-container{
+      display: none;
+    }
+    .mobView{
+        display: none;
+    }
+    .DesktopView{
+        display: block;
+    }
+    .logoImage{
+      width: 92%;
+      height: 10%;
+    }
+    .logoConatiner{
+      display: inline-block;
+      width: 20%;
+  }
+  .name{
+    margin-left: 3%;
+  }
+  .navCol{
+    padding-top: 2%;
+  }
+  .navCol div{
+    float: right;
+    padding-right: 1rem;
+  }
+  .nav-item{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    color:rgba(0,0,0,.4);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 4%;
+}
+
+
+.navbar a:hover {
+  background: #fff;
+  color: black;
+}
+
+.navWrpDiv{
+  padding: 10px 10px 40px 10px;
+}
+
+.navWrapperMain a{
+  color:rgba(0,0,0,.4);
+}
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .header{
+      margin-top: 0%;
+      padding: 0px 10px 70px 20px;
+    }
+    .mobile-container{
+      display: none;
+    }
+    .mobView{
+        display: none;
+    }
+    .DesktopView{
+        display: block;
+    }
+    .logoImage{
+      width: 62%;
+      height: 5%;
+    }
+    .logoConatiner{
+      display: inline-block;
+      width: 20%;
+  }
+  .name{
+    margin-left: -6%;
+  }
+  .navCol{
+    padding-top: 2%;
+  }
+  .navCol div{
+    float: right;
+    padding-right: 1rem;
+  }
+  .nav-item{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    color:rgba(0,0,0,.4);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 4%;
+}
+
+
+.navbar a:hover {
+  background: #fff;
+  color: black;
+}
+
+.navWrpDiv{
+  padding: 10px 10px 40px 10px;
+}
+
+.navWrapperMain a{
+  color:rgba(0,0,0,.4);
+}
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .header{
+      margin-top: 0%;
+      padding: 0px 10px 70px 20px;
+    }
+    .mobView{
+        display: none;
+    }
+    .DesktopView{
+        display: block;
+    }
+    .logoImage{
+      width: 62%;
+      height: 5%;
+    }
+    .mobile-container{
+      display: none;
+    }
+    .logoConatiner{
+      display: inline-block;
+      width: 20%;
+  }
+  .name{
+    margin-left: -6%;
+  }
+  .navCol{
+    padding-top: 2%;
+  }
+  .navCol div{
+    float: right;
+    padding-right: 1rem;
+  }
+  .nav-item{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    color:rgba(0,0,0,.4);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+
+.navbar a:hover {
+  background: #fff;
+  color: black;
+}
+
+.navWrpDiv{
+  padding: 10px 10px 40px 10px;
+}
+
+.navWrapperMain a{
+  color:rgba(0,0,0,.4);
+}
+
+  }
+
+  

@@ -1,0 +1,52 @@
+<div class="mainNav" style="margin: 0;top: 0;padding: 0;position:fixed;z-index: 1;">
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <div class="logoConatiner">
+        <img src="../../../assets//images/Logo.png" class="logoImage">
+      </div>
+      
+      <div id="myLinks">
+        <a (click)="menuItemHomeClick()"><span>Select Work</span></a>
+        <!-- <a (click)="menuItemStoriesClick()"><span>Stories</span></a> -->
+        <a (click)="menuItemResumeClick()"><span>Resume</span></a>
+        <a  (click)="menuItemAboutClick()"><span>About + Connect</span></a>
+      </div>
+      <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="DesktopView">
+    <div class="navbar">
+          <div class="col-12 col-md-5 col-lg-6 site-title">
+        <div> 
+          <div class="logoConatiner">
+            <img src="../../../assets//images/Logo.png" class="logoImage">
+          </div>
+          <span class="name">ARPIT RANJAN</span>
+        </div>
+    
+      </div>
+      <div class="col-3 col-md-6 col-lg-6 navCol">
+        <div class="navWrpDiv">
+            <nav id="navMainWrapper" class="navWrapperMain">
+                <div id="nav-item" class="nav-item">
+                  <a routerLink='/pages/about'><span>About + Connect</span></a>
+                </div>
+                <!-- <div id="nav-item" class="nav-item">
+                  <a routerLink='/pages/stories'><span>Stories</span></a>
+              </div> -->
+                <div id="nav-item" class="nav-item">
+                  <a routerLink='/pages/resume'><span>Resume</span></a>
+              </div>
+              <div id="nav-item" class="nav-item">
+                <a routerLink='/pages/home'><span>Select Work</span></a>
+              </div>
+            </nav>
+        </div>
+      </div>
+    </div>
+  </div>
